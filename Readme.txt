@@ -1,6 +1,3 @@
-Thanks for downloading this template!
+NixLabs
 
-Template Name: Moderna
-Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+This is a TCP/IP simulation web application to help students or anyone learn more about computer networks.
