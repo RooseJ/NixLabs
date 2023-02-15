@@ -18,12 +18,14 @@
 
   --fire1: #220901;
   --fire2: #621708;
-  --fire3: #941b0c jk x/*  */c;
+  --fire3: #941b0c;
   --fire4: #bc3908;
   --fire5: #f6aa1c;
 
   --fire-text: #f6aa1c;
-  --header: rgba(201, 134, 57, 0.8);
+  --header: rgba(201, 57, 57, 0.8);
+  --hero1: rgba(202, 135, 42, 0.8);
+  --hero2: rgba(202, 135, 42, 0.6);
 }
 
 /*--------------------------------------------------------------
@@ -95,7 +97,7 @@ h6,
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #1e4356;
+  background: var(--header);
 }
 
 #header.header-transparent {
@@ -368,7 +370,8 @@ h6,
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: linear-gradient(to right, var(--hero1), var(--hero2)), url("../img/hero-bg.jpg") top no-repeat ;
+  background-size: cover;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -522,7 +525,7 @@ h6,
   top: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: linear-gradient(to right, var(--hero1), var(--hero2)), url("../img/hero-bg.jpg") center top no-repeat;
 }
 
 #hero-no-slider h2 {
@@ -1478,7 +1481,7 @@ section {
   opacity: 0;
   transition: bottom ease-in-out 0.4s;
   text-align: center;
-  background: rgba(30, 67, 86, 0.8);
+  background: var(--hero1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1692,54 +1695,6 @@ section {
   padding: 0 0 30px 0;
   color: var(--white);
   font-size: 14px;
-}
-
-#footer .footer-newsletter {
-  padding: 50px 0;
-  background: var(--fire1);
-}
-
-#footer .footer-newsletter h4 {
-  font-size: 24px;
-  margin: 0 0 20px 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 600;
-  color: var(--fire-text);
-}
-
-#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: var(--white);
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-}
-
-#footer .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 100px);
-}
-
-#footer .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  margin: 3px;
-  background: var(--fire4);
-  color: var(--white);
-  transition: 0.3s;
-  border-radius: 50px;
-}
-
-#footer .footer-newsletter form input[type=submit]:hover {
-  background: var(--fire3);
 }
 
 #footer .footer-top {
