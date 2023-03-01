@@ -14,8 +14,8 @@ document.write(`
                 </div>
 
                 <div class="col-lg-8 col-md-6 footer-info">
-                    <h3>About Pheonix Labs</h3>
-                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                    <h3>About Pheonix Breeze</h3>
+                    <p>Pheonix Breeze develops innovative software solutions to empower individuals and organizations to achieve their goals. Our user-friendly, collaborative software is designed to meet the needs of today's fast-paced world.</p>
                     <div class="social-links mt-3">
                         <a href="" class="https://github.com/roosej"><i class="bx bxl-github"></i></a>
                         <a href="https://www.linkedin.com/in/roosevelt-eki/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
@@ -28,7 +28,7 @@ document.write(`
 
     <div class="container">
       <div class="copyright">
-        <strong><span>Pheonix Labs</span></strong>. All Rights Reserved
+        <strong><span>Pheonix Breeze</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->

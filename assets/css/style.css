@@ -24,7 +24,7 @@
 
   --fire-text: #f6aa1c;
   --header: rgba(201, 57, 57, 0.8);
-  --hero1: rgba(202, 135, 42, 0.8);
+  --hero1: rgba(255, 105, 23, 0.8);
   --hero2: rgba(202, 135, 42, 0.6);
 }
 
@@ -370,7 +370,7 @@ h6,
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, var(--hero1), var(--hero2)), url("../img/hero-bg.jpg") top no-repeat ;
+  background: linear-gradient(to right, var(--hero1), var(--hero2)), url("../img/hero-bg.jpeg") top no-repeat ;
   background-size: cover;
   z-index: 0;
   border-radius: 0 0 50% 50%;
@@ -525,7 +525,7 @@ h6,
   top: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to right, var(--hero1), var(--hero2)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: linear-gradient(to right, var(--hero1), var(--hero2)), url("../img/hero-bg.jpeg") center top no-repeat;
 }
 
 #hero-no-slider h2 {
