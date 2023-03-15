@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <script src="https://cdn.anychart.com/releases/8.8.0/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.8.0/js/anychart-graph.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.8.0/js/anychart-data-adapter.min.js"></script>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>
+</head>
+  </head>
+  <body>
+    <div id="container">
+      <button onclick="fitContent()">Fit Content</button>
+        <div id="terminal">
+          <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+          <div id="terminalHeader">{name}</div>
+          <div id="terminalBody">
+            <script src="terminal.js"></script>
+          </div>
+        </div>
+    </div>
+    <div>
+      <p>Other stuff</p>
+    </div>
+        
+
+    <script src="terminaldiv.js"></script>
+  </body>
+</html>

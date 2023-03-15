@@ -1815,3 +1815,17 @@ section {
 #footer .credits a {
   color: var(--fire-text);
 }
+
+::-webkit-scrollbar {
+  width: 7px;
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff5a29;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff6e42;
+}

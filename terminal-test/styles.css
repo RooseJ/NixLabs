@@ -1,0 +1,51 @@
+html,
+body,
+#container {
+  margin: 0;
+  padding: 0;
+}
+
+#terminal {
+  position: absolute;
+  z-index: 9;
+  background-color: #101010;
+  border: 2px solid #d3d3d3;
+  width: 30rem;
+  height: 20rem;
+  border-radius: 30px;
+  top: calc(50vh - 15rem);
+  left: calc(50vw - 10rem);
+}
+
+#terminalHeader {
+  position :relative;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196f3;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+#terminalBody {
+  overflow: hidden;
+}
+
+#terminalHeader:scope{
+  background-color: red;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff5a29;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff6e42;
+}

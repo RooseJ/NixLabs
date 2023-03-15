@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": "Server",
+      "group": "cloud"
+    },
+    {
+      "id": "Houston",
+      "group": "router"
+    },
+    {
+      "id": "Houston-Switch",
+      "group": "switch"
+    },
+    {
+      "id": "Houston-PC",
+      "group": "pc"
+    },
+    {
+      "id": "Houston-PC-2",
+      "group": "pc"
+    }
+  ],
+  "edges": [
+    { "from": "Server", "to": "Houston" },
+    { "from": "Houston", "to": "Houston-Switch" },
+    { "from": "Houston-Switch", "to": "Houston-PC" },
+    { "from": "Houston-Switch", "to": "Houston-PC-2" }
+  ]
+}
